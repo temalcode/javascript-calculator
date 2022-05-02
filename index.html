@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Javascript Calculator</h1>
+
+    <div class="container">
+        <textarea id="inputarea" readonly></textarea>
+        <div class="wrapper">
+            <div><button class="num" data-btn="7">7</button></div>
+            <div><button class="num" data-btn="8">8</button></div>
+            <div><button class="num" data-btn="9">9</button></div>
+            <div><button class="operator" data-btn="plus">+</button></div>
+
+            <div><button class="num" data-btn="4">4</button></div>
+            <div><button class="num" data-btn="5">5</button></div>
+            <div><button class="num" data-btn="6">6</button></div>
+            <div><button class="operator" data-btn="divide">/</button></div>
+
+            <div><button class="num" data-btn="1">1</button></div>
+            <div><button class="num" data-btn="2">2</button></div>
+            <div><button class="num" data-btn="3">3</button></div>
+            <div><button class="operator" data-btn="minus">-</button></div>
+            <div><button data-btn="." id="dotBtn">.</button></div>
+            <div><button class="num" data-btn="0">0</button></div>
+
+            <div><button id="negativeBtn" data-btn="negativeBtn">+/-</button></div>
+            <div><button class="operator" data-btn="multiply">x</button></div>
+        </div>
+        <div class="bottom">
+            <div><button data-btn="del" id="deleteBtn">C</button></div>
+            <div><button id="equal">=</button></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
